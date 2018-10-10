@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  initial_price: 1.5
+  day: 1
+  entry: one
+  stock: one
+
+two:
+  initial_price: 1.5
+  day: 1
+  entry: two
+  stock: two

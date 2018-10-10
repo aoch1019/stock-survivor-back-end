@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  alive: false
+  user: one
+  pool: one
+
+two:
+  alive: false
+  user: two
+  pool: two
