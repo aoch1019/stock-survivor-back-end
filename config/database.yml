@@ -82,4 +82,4 @@ production:
   <<: *default
   database: stock-survivor-back-end_production
   username: stock-survivor-back-end
-  password: <%= ENV['stock-survivor-back-end_DATABASE_PASSWORD'] %>
+  password: <%= ENV['STOCK-SURVIVOR-BACK-END_DATABASE_PASSWORD'] %>

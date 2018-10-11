@@ -11,7 +11,7 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = User.create(user_params)
+    @user = User.new(user_params)
     if @user.save
       render json: @user, status: :accepted
     else
@@ -25,4 +25,4 @@ class UsersController < ApplicationController
     params.permit(:name)
   end
 
-end
+end ##END OF CLASS
