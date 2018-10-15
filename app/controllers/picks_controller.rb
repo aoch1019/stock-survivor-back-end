@@ -29,6 +29,11 @@ class PicksController < ApplicationController
     end
   end
 
+  def destroy
+    @pick = Pick.find(params[:id])
+    @pick.destroy
+  end
+
   private
 
   def pick_params
